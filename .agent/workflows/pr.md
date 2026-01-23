@@ -25,8 +25,9 @@ description: 自動化提交並建立 Pull Request (遵循專案開發標準)
    - **注意**：若任何步驟失敗，將停止後續操作並回報錯誤。
 
 3. **提交與推送**
+   - 建立新分支：`git checkout -b <類型>/<中文描述>`。
    - 執行 Commit：`git add .` 與 `git commit -m "<類型>: <中文描述>"`。
-   - 執行 Push：`git push origin main`。
+   - 執行 Push：`git push origin HEAD`。
 
 4. **建立 PR 與啟用自動合併 (Auto-merge)**
    // turbo
@@ -42,4 +43,4 @@ description: 自動化提交並建立 Pull Request (遵循專案開發標準)
 使用者輸入：`/pr`
 AI 回應：偵測到 `platform/` 有變更，請問變更類型與描述？
 使用者輸入：`feat` / `新增使用者個人資料頁面`
-AI 執行：驗證 -> 直接在 main 提交並推送 -> 建立 PR 並開啟 Auto-merge -> 回傳 PR 連結。
+AI 執行：驗證 -> 建立分支 -> 提交並推送 -> 建立 PR 並開啟 Auto-merge -> 回傳 PR 連結。

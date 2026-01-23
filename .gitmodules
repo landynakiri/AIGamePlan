@@ -1,0 +1,3 @@
+[submodule "games/game1"]
+	path = games/game1
+	url = https://github.com/landynakiri/AIGameCore.git

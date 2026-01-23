@@ -1,7 +1,7 @@
 ---
 description: 自動化提交並建立 Pull Request (遵循專案開發標準)
-// turbo-all
 ---
+// turbo-all
 
 這個工作流遵循 [專案開發標準](file:///d:/AIGame/platform/docs/standards.md)，旨在實現安全且高效的代碼提交流程。
 

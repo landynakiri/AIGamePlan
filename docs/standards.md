@@ -20,7 +20,7 @@
 
 ### 歷史紀錄封存 (Archiving)
 - **通用規則**：所有開發任務結束時，必須將 `walkthrough.md` 封存。
-- **封存路徑**：`platform/docs/history/YYYY-MM-DD-簡短名稱.md`。
+- **封存路徑**：`platform/docs/history/YYYY-MM-DD-SS-簡短名稱.md`（`SS` 為當天序號，例如 `01`, `02`）。
 - **版本控制**：封存的文件必須提交至 Git 儲存庫，作為專案的永久開發日誌。
 
 ## 3. 工作流指令 (Workflows)
